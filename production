@@ -1,19 +1,26 @@
 # File: Production
 
+# Webservers
 [Webservers]  
 TK-web-svr01
 TK-web-svr02
 
+# Data Base servers
 [DB_servers]
 TK-db-svr01
 Tk-db-svr01
 
+#Docker Hosts
 [Docker_hosts]
 TK-dkr-svr01
 TK-dkr-svr01
+
+# Virtual Machine Hosts
+[VM_hosts]
 
 # all TK servers
 [TK:children] 
 Web_servers
 DB_servers
-Docker_Hosts
+Docker_hosts
+VM_servers
