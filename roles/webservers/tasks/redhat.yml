@@ -1,0 +1,4 @@
+# File: roles/webservers/tasks/redhat.yml
+- yum:
+    name: "nginx"
+    state: present

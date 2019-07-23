@@ -1,0 +1,5 @@
+# File: library/webservers.yml
+- hosts: Webservers
+  roles:
+    - common
+    - webservers

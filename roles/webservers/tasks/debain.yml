@@ -1,0 +1,4 @@
+# fIle: roles/webservers/tasks/debian.yml
+- apt:
+    name: "nginx"
+    state: present

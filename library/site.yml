@@ -1,0 +1,6 @@
+# File: site.yml
+
+- import_playbook webservers.yml
+- import_playbook db_servers.yml
+- import_playbook docker_hosts.yml
+- import_playbook vm_hosts.yml
