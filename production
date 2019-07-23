@@ -1,0 +1,19 @@
+# File: Production
+
+[Webservers]  
+TK-web-svr01
+TK-web-svr02
+
+[DB_servers]
+TK-db-svr01
+Tk-db-svr01
+
+[Docker_hosts]
+TK-dkr-svr01
+TK-dkr-svr01
+
+# all TK servers
+[TK:children] 
+Web_servers
+DB_servers
+Docker_Hosts
